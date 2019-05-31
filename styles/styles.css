@@ -148,3 +148,20 @@ main {
   margin-right: 32px;
 }
 
+.bg-dark{
+  background: #223246;
+}
+
+.dark-secondary{
+  background: #1A2733;
+
+}
+
+.text-white{
+  color: white
+}
+
+.border-dark{
+  border-top: 1px solid #223246 !important;
+}
+

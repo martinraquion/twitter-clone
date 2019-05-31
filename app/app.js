@@ -13,7 +13,6 @@ $('#composeInput').focus('click', () =>{
 
 $('#composeInput').on('input', () =>{
     // event.preventDefault();  
-    
     var maxlength = $('#composeInput').attr("maxlength");
     var text_length = $('#composeInput').val().length;
     var text_remaining = maxlength - text_length;
@@ -80,4 +79,12 @@ $('.post-tweet').on('click', ()=>{
 })
 
 
+$('.img-profile').on('click',() =>{
+    $('.compose').toggleClass('bg-dark');
+    $('.tweets').toggleClass('dark-secondary')
+    $('.display-name').toggleClass('text-white')
+    $('.content').toggleClass('text-white')
+    $('.tweet-actions').toggleClass('text-white')
+    $('.time').toggleClass('text-white')
+})
 
